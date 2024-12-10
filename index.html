@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="eng-CA">
+  <head>
+    <meta charset="utf-8">
+    <title>Illustrations</title>
+    <!-- Created by Dolapo Ajiboye on 06/12/2024 -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Italianno&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        color: #666666;
+        background-color: #FDC56A;
+        margin: 0;
+        font-family: 'Indie Flower', cursive; 
+        text-align: center;
+      }
+
+      .wrapper {
+        background-color: #FFF4E3;
+        width: 92%;   
+        max-width: 1200px;
+        margin: 20px auto;       
+        padding: 20px;           
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .italianno {
+        font-family: 'Italianno', cursive;
+        font-size: 6em;
+        font-weight: 300;
+        margin: 20px 0;
+      }
+
+      /* Navigation bar */
+      #nav ul {
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: #FFFFFF;
+      }
+
+      #nav li {
+        margin: 0 20px;
+      }
+
+      #nav a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 1.2em;
+        padding: 10px 20px;
+        display: block;
+        transition: color 0.3s ease;
+      }
+
+      #nav a:hover {
+        color: #FDC56A;
+      }
+
+      /* Image container styling */
+      .image-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Ensures 3 columns */
+        grid-template-rows: auto, auto, auto; /* Ensures 3 rows */
+        gap: 20px; /* Spacing between images */
+        padding: 20px;
+      }
+
+      .image-container img {
+        width: 100%;
+        height: auto;
+        border: 2px solid #000; /* Thin black frame */
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .image-container img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navigation Bar -->
+      <div id="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Illustrations</a></li>
+          <li><a href="#">UI Design</a></li>
+          <li><a href="#">3D Modelling</a></li>
+          <li><a href="#">Animations</a></li>
+        </ul>
+      </div>
+
+      <!-- Header -->
+      <div id="header">
+        <h1 class="italianno">Illustrations</h1>
+      </div>
+
+      <!-- Content Sections -->
+      <section>
+        <h2>Traditional</h2>
+        <div class="image-container">
+          <img src="eater.jpg" alt="Trad1">
+          <img src="inprog.jpg" alt="Trad2">
+          <img src="deeer.jpg" alt="Trad3">
+          <img src="book.jpg" alt="Trad4">
+          <img src="dodu.jpg" alt="Trad5">
+        </div>
+      </section>
+
+      <section>
+        <h2>Digital</h2>
+        <div class="image-container">
+          <img src="pose-1.jpg" alt="Digital1">
+          <img src="Clouds.jpg" alt="Digital2">
+          <img src="Bo.jpg" alt="Digital3">
+          <img src="pose-2.jpg" alt="Digital4">
+          <img src="krimson.jpg" alt="Digital5">
+          <img src="Casey.jpg" alt="Digital6">
+        </div>
+      </section>
+
+      <section>
+        <h2>Character Design</h2>
+        <div class="image-container">
+          <img src="character1.jpg" alt="CharDe1">
+          <img src="character2.jpg" alt="CharDe2">
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
